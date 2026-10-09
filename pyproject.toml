@@ -1,0 +1,15 @@
+[project]
+name = "pytrendclust-examples"
+version = "1.0.0"
+description = "Reproducible examples and experiments for the pytrendclust paper"
+requires-python = ">=3.11"
+dependencies = [
+    "pytrendclust>=0.2.0",
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+    "pillow>=10",
+    "jupyter>=1.0",
+]
+
+[tool.uv]
+package = false
